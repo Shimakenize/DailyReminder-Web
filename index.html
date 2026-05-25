@@ -42,6 +42,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <script>
+    // Force cache clear when a new build is deployed
+    (async function() {
+      try {
+        const r = await fetch('version.json?t=' + Date.now());
+        const v = await r.json();
+        const key = 'dr_build';
+        const prev = localStorage.getItem(key);
+        const cur = v.version + '.' + v.build_number;
+        if (prev && prev !== cur) {
+          if ('caches' in window) {
+            const keys = await caches.keys();
+            await Promise.all(keys.map(k => caches.delete(k)));
+          }
+          if ('serviceWorker' in navigator) {
+            const regs = await navigator.serviceWorker.getRegistrations();
+            await Promise.all(regs.map(reg => reg.unregister()));
+          }
+          localStorage.setItem(key, cur);
+          window.location.reload(true);
+          return;
+        }
+        localStorage.setItem(key, cur);
+      } catch(e) {}
+    })();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
