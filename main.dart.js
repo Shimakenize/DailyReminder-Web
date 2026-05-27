@@ -8033,8 +8033,8 @@ return A.I(null,r)}})
 return A.J($async$aCx,r)},
 Mn:function Mn(a){this.a=a},
 a6o:function a6o(){},
-aZ1(a){return 0.25*B.d.az(a/0.25)},
-aZ0(a){var s=B.d.Z(0.25*B.d.az(a/0.25),2)
+aZ1(a){return 0.05*B.d.az(a/0.05)},
+aZ0(a){var s=B.d.Z(0.05*B.d.az(a/0.05),2)
 if(B.c.i_(s,"00"))return B.c.N(s,0,s.length-3)
 if(B.c.i_(s,"0"))return B.c.N(s,0,s.length-1)
 return s},
@@ -46406,7 +46406,7 @@ o.toString
 s=3
 return A.w(A.aCP(null,null,!0,null,new A.asE(n,p),o,null,!0,t.y),$async$vj)
 case 3:if(b!==!0||p.c==null){s=1
-break}p.a1(new A.asF(p,k,new A.dG(j+"/"+i,k,0.25*B.d.az(n.a/0.25),n.b)))
+break}p.a1(new A.asF(p,k,new A.dG(j+"/"+i,k,0.05*B.d.az(n.a/0.05),n.b)))
 s=4
 return A.w(p.alj(),$async$vj)
 case 4:case 1:return A.I(q,r)}})
@@ -47285,7 +47285,7 @@ $1(a){return new A.oD(new A.asB(this.a,this.b),null)},
 $S:136}
 A.asB.prototype={
 $2(a,b){var s=new A.asC(this.b,b),r=this.a,q=t.p
-r=A.cz(A.b([s.$7$format$round("\u4f53\u91cd","kg",r.a,0.25,new A.ast(r),A.b1X(),A.b1Y()),B.Am,A.aIH(B.bv,1),B.Am,s.$5("\u4f53\u8102\u80aa\u7387","%",r.b,0.1,new A.asu(r))],q),B.z,B.t,B.b9)
+r=A.cz(A.b([s.$7$format$round("\u4f53\u91cd","kg",r.a,0.05,new A.ast(r),A.b1X(),A.b1Y()),B.Am,A.aIH(B.bv,1),B.Am,s.$5("\u4f53\u8102\u80aa\u7387","%",r.b,0.1,new A.asu(r))],q),B.z,B.t,B.b9)
 return A.aDi(A.b([A.wM(B.mm,new A.asv(a),null),A.aDR(B.Yt,new A.asw(a),null)],q),r,B.Yx)},
 $S:137}
 A.asC.prototype={
