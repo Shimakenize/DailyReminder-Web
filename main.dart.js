@@ -46445,28 +46445,29 @@ if(m<=0.001)return"\u6b8b\u308a"+B.d.Y(s,2)+"kg \xb7 \u4f53\u91cd\u304c\u6e1b\u3
 l=B.d.aB(s/m)
 if(l<=q)return"\u6b8b\u308a"+B.d.Y(s,2)+"kg \xb7 \u3053\u306e\u30da\u30fc\u30b9\u3067\u76ee\u6a19\u65e5\u524d\u306b\u9054\u6210\u3067\u304d\u308b\u3002"
 else return"\u6b8b\u308a"+B.d.Y(s,2)+"kg \xb7 \u3053\u306e\u30da\u30fc\u30b9\u3060\u3068\u3042\u3068"+l+"\u65e5\u304b\u304b\u308b\u3002\u6b8b"+q+"\u65e5\u3067\u8981\u52a0\u901f\u3002"}}return"\u6b8b\u308a"+B.d.Y(s,2)+"kg \xb7 \u6b8b"+q+"\u65e5\u30021\u65e5"+B.d.Y(s/q,2)+"kg\u6e1b\u304c\u5fc5\u8981\u3002"},
-Fb(){var s,r,q,p,o=this,n=A.fA(new A.bI(Date.now(),0,!1)),m=n===2||n===3||n===5,l=n===1||n===4,k=n===6||n===7,j=o.SU(n,m,k),i=!0
+Fb(){var s,r,q,p,o=this,n=A.fA(new A.bI(Date.now(),0,!1)),m=n===2||n===3||n===5,l=n!==6,k=!l||n===7,j=!l||n===7,i=o.SU(n,m,j)
+l=!0
 switch(o.f.a){case 3:break
 case 0:break
-case 1:i=!m
+case 1:l=!m
 break
-case 2:i=!1
+case 2:l=!1
 break
-default:i=null}s=t.Wy
+default:l=null}s=t.Wy
 r=A.b([],s)
 r.push(B.PF)
-if(m||l)r.push(B.Qs)
+if(m||k)r.push(B.Qs)
 r.push(B.Q3)
 r.push(B.Ps)
-if(j){r.push(B.PM)
-r.push(B.PY)}if(i)r.push(B.Py)
-i=o.f
-if(i!==B.cD)if(i===B.ch){q=B.c.N(new A.bI(Date.now(),0,!1).dU(),0,10)
-i=o.w
-p=i!=null&&i!==q
-if(!k&&!p)r.push(B.Ql)}else B.b.P(r,A.b([B.Q7,B.PL,B.PU],s))
-i=o.f
-if(i===B.bX||i===B.cE)B.b.P(r,A.b([B.Q2,B.PB,B.Q8,B.Qa,B.PT,B.PP],s))
+if(i){r.push(B.PM)
+r.push(B.PY)}if(l)r.push(B.Py)
+l=o.f
+if(l!==B.cD)if(l===B.ch){q=B.c.N(new A.bI(Date.now(),0,!1).dU(),0,10)
+l=o.w
+p=l!=null&&l!==q
+if(!j&&!p)r.push(B.Ql)}else B.b.P(r,A.b([B.Q7,B.PL,B.PU],s))
+l=o.f
+if(l===B.bX||l===B.cE)B.b.P(r,A.b([B.Q2,B.PB,B.Q8,B.Qa,B.PT,B.PP],s))
 return r},
 gahT(){return B.b.dY(this.Fb(),new A.ast(this))},
 ao6(){var s=this.Fb(),r=A.a_(s),q=r.h("eK<1,k>")
@@ -46514,7 +46515,7 @@ a8=a4.a
 a9=J.as(a8)
 b0=A.bB(a9.i(a8,"streak_base_date"))
 if(b0==null)b0=""
-if(b0===a7&&A.bB(a9.i(a8,"streak_cache_version"))==="v5"){j=A.q(t.N,t.S)
+if(b0===a7&&A.bB(a9.i(a8,"streak_cache_version"))==="v6"){j=A.q(t.N,t.S)
 for(i=0;i<17;++i){h=B.bM[i]
 g=A.fM(a9.i(a8,"streak_"+h))
 j.m(0,h,g==null?0:g)}if(n.c!=null)n.a1(new A.asL(n,j))
@@ -46545,14 +46546,14 @@ break
 case 9:c=A.q(g,f)
 for(i=0;i<17;++i){h=B.bM[i]
 if(h==="gym"){b=A.fA(a6)
-if(b===1||b===4){a8=m
+if(b===6||b===7){a8=m
 a8=a8==null?null:J.ao(a8,"gym")
 if(a8===!0){a8=j.i(0,h)
 a8=(a8==null?0:a8)+1}else{a8=j.i(0,h)
 if(a8==null)a8=0}c.m(0,h,a8)
 continue}b=A.fA(a6)
 if(!(b===2||b===3||b===5)){b=A.fA(a6)
-a8=b===1||b===4}else a8=!0
+a8=b===6||b===7}else a8=!0
 if(!a8){a8=j.i(0,h)
 c.m(0,h,a8==null?0:a8)
 continue}a8=m
@@ -46567,7 +46568,7 @@ c.m(0,h,a8)}if(n.c!=null)n.a1(new A.asM(n,c))
 s=11
 return A.u(a4.dI("String","streak_base_date",a7),$async$iy)
 case 11:s=12
-return A.u(a4.dI("String","streak_cache_version","v5"),$async$iy)
+return A.u(a4.dI("String","streak_cache_version","v6"),$async$iy)
 case 12:i=0
 case 13:if(!(i<17)){s=15
 break}h=B.bM[i]
@@ -46610,13 +46611,13 @@ else f=!0
 if(!f)break
 A:{if(g){a2=B.c.N(a0.dU(),0,10)
 b=A.fA(a0)
-if(b===1||b===4){f=J.ao(k,a2)
+if(b===6||b===7){f=J.ao(k,a2)
 f=f==null?null:J.ao(f,"gym")
 if(f===!0)++a1
 a0=a0.it(-864e8)
 break A}b=A.fA(a0)
 if(!(b===2||b===3||b===5)){b=A.fA(a0)
-f=b===1||b===4}else f=!0
+f=b===6||b===7}else f=!0
 if(!f){a0=a0.it(-864e8)
 break A}f=J.ao(k,a2)
 f=f==null?null:J.ao(f,"gym")
@@ -46631,7 +46632,7 @@ a0=a0.it(-864e8)}}c.m(0,h,a1)}if(n.c!=null)n.a1(new A.asN(n,c))
 s=22
 return A.u(a4.dI("String","streak_base_date",a7),$async$iy)
 case 22:s=23
-return A.u(a4.dI("String","streak_cache_version","v5"),$async$iy)
+return A.u(a4.dI("String","streak_cache_version","v6"),$async$iy)
 case 23:i=0
 case 24:if(!(i<17)){s=26
 break}h=B.bM[i]
@@ -46651,9 +46652,9 @@ s=new A.bI(Date.now(),0,!1)
 r=this.r.i(0,"gym")
 q=r===!0
 p=A.fA(s)
-if(p===1||p===4)return q?o+1:o
+if(p===6||p===7)return q?o+1:o
 if(!A.aZD(s)){p=A.fA(s)
-r=p===1||p===4}else r=!0
+r=p===6||p===7}else r=!0
 if(!r)return o
 return q?o+1:o},
 Rv(a){var s,r,q=this
@@ -47636,7 +47637,7 @@ q=A.aJ0(A.b([new A.it(s,b),new A.it(r,b),new A.it(new A.bq(B.oq,A.bW(b,c.a9s(),B
 s=q}r=c.PI("Daily Habits")
 o=A.fA(new A.bI(Date.now(),0,!1))
 n=o===2||o===3||o===5
-m=o===1||o===4
+m=o===6||o===7
 if(n)l="\u5fc5\u9808"
 else l=m?"\u4efb\u610f":"\u4f11"
 q=c.PG(B.I1,"weight_measure","\u6bce\u671d","\u4f53\u91cd\u30fb\u4f53\u8102\u80aa\u6e2c\u5b9a")
