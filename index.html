@@ -68,6 +68,13 @@
       } catch(e) {}
     })();
   </script>
+  <script>
+    function drSetBadge(n) {
+      if ('setAppBadge' in navigator) {
+        n === 0 ? navigator.clearAppBadge() : navigator.setAppBadge(n);
+      }
+    }
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
