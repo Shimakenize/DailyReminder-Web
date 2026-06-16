@@ -46590,17 +46590,17 @@ default:j=null}s=t.Wy
 r=A.b([],s)
 r.push(B.PO)
 r.push(B.QB)
-r.push(B.Qc)
+r.push(B.Qe)
 r.push(B.PB)
-if(k){r.push(B.PV)
-r.push(B.Q6)}if(j)r.push(B.PH)
+if(k){r.push(B.PW)
+r.push(B.Q7)}if(j)r.push(B.PI)
 j=o.r
 if(j!==B.cj)if(j===B.bX){q=B.c.N(new A.bB(Date.now(),0,!1).dF(),0,10)
 j=o.x
 p=j!=null&&j!==q
-if(!l&&!p)r.push(B.Qu)}else B.b.O(r,A.b([B.Qg,B.PU,B.Q2],s))
+if(!l&&!p)r.push(B.PZ)}else B.b.O(r,A.b([B.Qp,B.PS,B.PP],s))
 j=o.r
-if(j===B.bW||j===B.cH)B.b.O(r,A.b([B.Qb,B.PK,B.Qh,B.Qj,B.Q1,B.PY],s))
+if(j===B.bW||j===B.cH)B.b.O(r,A.b([B.Qd,B.PK,B.Qh,B.Qj,B.Q3,B.Q_],s))
 return r},
 gahX(){return B.b.dP(this.uy(),new A.asI(this))},
 aoc(){var s=this.uy(),r=A.a_(s),q=r.h("eN<1,k>")
@@ -47698,7 +47698,7 @@ b=A.b([A.cB(A.b([B.Hn,A.aW(m,j,j,j,A.cD(j,j,n,j,j,j,j,j,"Zen Kaku Gothic New",j,
 if(c!==B.cj){c=A.b([],l)
 if(k.r===B.bX){if(e)n="\u4eca\u65e5\u306f\u5bfe\u8c61\u5916"
 else n=p?"\u4eca\u9031\u4f7f\u7528\u6e08":"\u90311\u56de"
-c.push(k.yJ(!e&&!p,B.pf,"diet_oil_d",i,"\u6cb9",n))}else c.push(k.Ft(!0,B.pf,A.b(["diet_oil_m","diet_oil_n","diet_oil_e"],t.s),"\u6cb9",h))
+c.push(k.yJ(!e&&!p,B.pf,"diet_oil_d",i,"\u63da\u3052\u7269",n))}else c.push(k.Ft(!0,B.pf,A.b(["diet_oil_m","diet_oil_n","diet_oil_e"],t.s),"\u63da\u3052\u7269",h))
 B.b.O(b,c)}if(s)b.push(k.Ft(!0,B.HZ,A.b(["diet_portion_m","diet_portion_n","diet_portion_e"],t.s),"8\u5206\u76ee",h))
 if(s)b.push(k.Ft(!0,B.I0,A.b(["diet_rice_m","diet_rice_n","diet_rice_e"],t.s),"\u30de\u30f3\u30ca\u30f3",h))
 return new A.bk(B.dX,A.bW(j,A.cq(b,B.a5,B.o,B.u),B.m,j,j,new A.bw(B.j,j,o,q,j,j,B.z),j,j,j,j,B.oz,j,j,j),j)},
@@ -47723,12 +47723,12 @@ p=A.a_(c).h("a6<1,bk>")
 p=A.Y(new A.a6(c,new A.aso(this),p),p.h("aj.E"))
 n.push(A.cB(p,B.y,B.o,B.u,s))
 return A.PL(A.bW(s,A.cB(n,B.y,B.o,B.u,s),B.m,s,s,new A.bw(B.hs,s,q,r,s,s,B.z),s,s,s,B.ox,B.oy,s,s,s),1)},
-a9G(){var s,r=null,q=t.Kz,p=A.am([B.cH,B.k6,B.bW,B.w,B.bX,B.bt,B.cj,B.hn],q,t.G),o=A.am([B.cH,B.PX,B.bW,B.Q9,B.bX,B.Qa,B.cj,B.Q_],q,t.eR),n=A.b([B.cj,B.bX,B.bW,B.cH],t.sO)
+a9G(){var s,r=null,q=t.Kz,p=A.am([B.cH,B.k6,B.bW,B.w,B.bX,B.bt,B.cj,B.hn],q,t.G),o=A.am([B.cH,B.PY,B.bW,B.Qb,B.bX,B.Qc,B.cj,B.Q1],q,t.eR),n=A.b([B.cj,B.bX,B.bW,B.cH],t.sO)
 q=A.bZ(14)
 s=t.ew
 s=A.Y(new A.a6(n,new A.asu(this,p,o),s),s.h("aj.E"))
 return A.bW(r,A.cB(s,B.y,B.o,B.u,r),B.m,r,r,new A.bw(B.d3,r,r,q,r,r,B.z),r,56,r,r,B.oC,r,r,r)},
-a9u(){var s,r,q,p,o,n,m=this,l=null,k=t.Wy,j=A.b([new A.n4([B.cH,"\u8d85\u5f37","\u5168\u7981\u30e2\u30fc\u30c9",A.b([B.PW,B.PL,B.zI,B.zK,B.zH,B.zJ],k)]),new A.n4([B.bW,"\u5f37","\u6700\u5927\u5236\u9650\u30e2\u30fc\u30c9",A.b([B.PM,B.Q3,B.zI,B.zK,B.zH,B.zJ],k)]),new A.n4([B.bX,"\u4e2d","\u30d0\u30e9\u30f3\u30b9\u30e2\u30fc\u30c9",A.b([B.Qt,B.Qr,B.Qq,B.PJ,B.zM,B.zL],k)]),new A.n4([B.cj,"\u5f31","\u3086\u308b\u3081\u30e2\u30fc\u30c9",A.b([B.PF,B.PS,B.Qs,B.Qd,B.zM,B.zL],k)])],t.SA),i=A.am([B.cH,B.QA,B.bW,B.PE,B.bX,B.PQ,B.cj,B.PI],t.Kz,t.wg)
+a9u(){var s,r,q,p,o,n,m=this,l=null,k=t.Wy,j=A.b([new A.n4([B.cH,"\u8d85\u5f37","\u5168\u7981\u30e2\u30fc\u30c9",A.b([B.PX,B.PL,B.zI,B.zM,B.zH,B.zJ],k)]),new A.n4([B.bW,"\u5f37","\u6700\u5927\u5236\u9650\u30e2\u30fc\u30c9",A.b([B.PM,B.Q4,B.zI,B.zM,B.zH,B.zJ],k)]),new A.n4([B.bX,"\u4e2d","\u30d0\u30e9\u30f3\u30b9\u30e2\u30fc\u30c9",A.b([B.Qu,B.Qs,B.Qr,B.PC,B.zL,B.zK],k)]),new A.n4([B.cj,"\u5f31","\u3086\u308b\u3081\u30e2\u30fc\u30c9",A.b([B.PG,B.PU,B.Qt,B.Q8,B.zL,B.zK],k)])],t.SA),i=A.am([B.cH,B.QA,B.bW,B.PF,B.bX,B.PR,B.cj,B.PJ],t.Kz,t.wg)
 k=B.b.ww(j,new A.arV(m)).a
 s=J.a49(k[3],new A.arW()).gA(0)
 r=A.bZ(18)
@@ -47815,12 +47815,12 @@ if(b0||b1){f.push(B.mt)
 k=b0?l.$2("diet_alcohol","\u7981\u9152"):B.ep
 j=b0?l.$2("diet_snack","\u30b9\u30ca\u30c3\u30af"):B.ep
 f.push(h.$1(A.b([k,j,b1?l.$2("diet_sweet","\u7518\u3044\u3082\u306e"):B.ep],g)))}if(r!==B.cj){f.push(B.mt)
-if(d.r===B.bX)f.push(h.$1(A.b([l.$3$disabled("diet_oil_d","\u6cb9",!(!a9&&!q)),B.ep,B.ep],g)))
+if(d.r===B.bX)f.push(h.$1(A.b([l.$3$disabled("diet_oil_d","\u63da\u3052\u7269",!(!a9&&!q)),B.ep,B.ep],g)))
 else{b1=d.w.i(0,b)
 r=d.w.i(0,a)
 l=d.w.i(0,a0)
 k=t.ZV
-l=i.$2("\u6cb9",A.b([new A.U(b,b1===!0),new A.U(a,r===!0),new A.U(a0,l===!0)],k))
+l=i.$2("\u63da\u3052\u7269",A.b([new A.U(b,b1===!0),new A.U(a,r===!0),new A.U(a0,l===!0)],k))
 r=d.w.i(0,a1)
 b1=d.w.i(0,a2)
 j=d.w.i(0,a3)
@@ -59754,7 +59754,7 @@ r.toString
 a.$1(r)}},
 aaM(a,b,c){var s,r,q,p,o,n,m,l,k,j,i,h=null,g=this.ds$,f=g.i(0,B.bS)
 A:{if(f instanceof A.y){f=new A.U(c.$2(f,a),b.$2(f,a))
-break A}if(f==null){f=B.Q0
+break A}if(f==null){f=B.Q2
 break A}f=h}s=f.a
 r=h
 q=f.b
@@ -70812,12 +70812,12 @@ l=s>r!==(B.ag===m)
 k=A.cs(B.k,s,r,!1)
 j=A.b([],t.AO)
 for(a0=a0.og(k),m=a0.length,i=0;i<a0.length;a0.length===m||(0,A.z)(a0),++i){h=a0[i]
-j.push(new A.v(h.a,h.b,h.c,h.d))}A:{if(p){a0=B.PD
+j.push(new A.v(h.a,h.b,h.c,h.d))}A:{if(p){a0=B.PE
 break A}a0=l
 g=a0
 if(a0){a0=B.Qx
 break A}a0=!1===g
-if(a0){a0=B.Q8
+if(a0){a0=B.Qa
 break A}a0=a}f=a0.a
 e=a
 d=a0.b
@@ -90013,13 +90013,13 @@ return!1}return!0},
 vN(){this.fr.vN()
 this.IL()},
 IL(){var s,r,q,p,o,n,m=this,l=m.w
-switch(l.a.c.a){case 0:s=B.Qp
+switch(l.a.c.a){case 0:s=B.Qq
 break
 case 2:s=B.Qn
 break
 case 3:s=B.Qi
 break
-case 1:s=B.Qe
+case 1:s=B.Qf
 break
 default:s=null}r=s.a
 q=null
@@ -102638,20 +102638,20 @@ B.p3=new A.ht(900)
 B.Lb=s([B.lk,B.Hy,B.Hz,B.t,B.W,B.aG,B.bf,B.HA,B.p3],A.aq("A<ht>"))
 B.pJ=s([31,-1,31,30,31,30,31,31,30,31,30,31],t.t)
 B.Lc=s([0.015176349177441876,0.045529047532325624,0.07588174588720938,0.10623444424209313,0.13658714259697685,0.16693984095186062,0.19729253930674434,0.2276452376616281,0.2579979360165119,0.28835063437139563,0.3188300904430532,0.350925934958123,0.3848314933096426,0.42057480301049466,0.458183274052838,0.4976837250274023,0.5391024159806381,0.5824650784040898,0.6277969426914107,0.6751227633498623,0.7244668422128921,0.775853049866786,0.829304845476233,0.8848452951698498,0.942497089126609,1.0022825574869039,1.0642236851973577,1.1283421258858297,1.1946592148522128,1.2631959812511864,1.3339731595349034,1.407011200216447,1.4823302800086415,1.5599503113873272,1.6398909516233677,1.7221716113234105,1.8068114625156377,1.8938294463134073,1.9832442801866852,2.075074464868551,2.1693382909216234,2.2660538449872063,2.36523901573795,2.4669114995532007,2.5710888059345764,2.6777882626779785,2.7870270208169257,2.898822059350997,3.0131901897720907,3.1301480604002863,3.2497121605402226,3.3718988244681087,3.4967242352587946,3.624204428461639,3.754355295633311,3.887192587735158,4.022731918402185,4.160988767090289,4.301978482107941,4.445716283538092,4.592217266055746,4.741496401646282,4.893568542229298,5.048448422192488,5.20615066083972,5.3666897647573375,5.5300801301023865,5.696336044816294,5.865471690767354,6.037501145825082,6.212438385869475,6.390297286737924,6.571091626112461,6.7548350853498045,6.941541251256611,7.131223617812143,7.323895587840543,7.5195704746346665,7.7182615035334345,7.919981813454504,8.124744458384042,8.332562408825165,8.543448553206703,8.757415699253682,8.974476575321063,9.194643831691977,9.417930041841839,9.644347703669503,9.873909240696694,10.106627003236781,10.342513269534024,10.58158024687427,10.8238400726681,11.069304815507364,11.317986476196008,11.569896988756009,11.825048221409341,12.083451977536606,12.345119996613247,12.610063955123938,12.878295467455942,13.149826086772048,13.42466730586372,13.702830557985108,13.984327217668513,14.269168601521828,14.55736596900856,14.848930523210871,15.143873411576273,15.44220572664832,15.743938506781891,16.04908273684337,16.35764934889634,16.66964922287304,16.985093187232053,17.30399201960269,17.62635644741625,17.95219714852476,18.281524751807332,18.614349837764564,18.95068293910138,19.290534541298456,19.633915083172692,19.98083495742689,20.331304511189067,20.685334046541502,21.042933821039977,21.404114048223256,21.76888489811322,22.137256497705877,22.50923893145328,22.884842241736916,23.264076429332462,23.6469514538663,24.033477234264016,24.42366364919083,24.817520537484558,25.21505769858089,25.61628489293138,26.021211842414342,26.429848230738664,26.842203703840827,27.258287870275353,27.678110301598522,28.10168053274597,28.529008062403893,28.96010235337422,29.39497283293396,29.83362889318845,30.276079891419332,30.722335150426627,31.172403958865512,31.62629557157785,32.08401920991837,32.54558406207592,33.010999283389665,33.4802739966603,33.953417292456834,34.430438229418264,34.911345834551085,35.39614910352207,35.88485700094671,36.37747846067349,36.87402238606382,37.37449765026789,37.87891309649659,38.38727753828926,38.89959975977785,39.41588851594697,39.93615253289054,40.460400508064545,40.98864111053629,41.520882981230194,42.05713473317016,42.597404951718396,43.141702194811224,43.6900349931913,44.24241185063697,44.798841244188324,45.35933162437017,45.92389141541209,46.49252901546552,47.065252796817916,47.64207110610409,48.22299226451468,48.808024568002054,49.3971762874833,49.9904556690408,50.587870934119984,51.189430279724725,51.79514187861014,52.40501387947288,53.0190544071392,53.637271562750364,54.259673423945976,54.88626804504493,55.517063457223934,56.15206766869424,56.79128866487574,57.43473440856916,58.08241284012621,58.734331877617365,59.39049941699807,60.05092333227251,60.715611475655585,61.38457167773311,62.057811747619894,62.7353394731159,63.417162620860914,64.10328893648692,64.79372614476921,65.48848194977529,66.18756403501224,66.89098006357258,67.59873767827808,68.31084450182222,69.02730813691093,69.74813616640164,70.47333615344107,71.20291564160104,71.93688215501312,72.67524319850172,73.41800625771542,74.16517879925733,74.9167682708136,75.67278210128072,76.43322770089146,77.1981124613393,77.96744375590167,78.74122893956174,79.51947534912904,80.30219030335869,81.08938110306934,81.88105503125999,82.67721935322541,83.4778813166706,84.28304815182372,85.09272707154808,85.90692527145302,86.72564993000343,87.54890820862819,88.3767072518277,89.2090541872801,90.04595612594655,90.88742016217518,91.73345337380438,92.58406282226491,93.43925555268066,94.29903859396902,95.16341895893969,96.03240364439274,96.9059996312159,97.78421388448044,98.6670533535366,99.55452497210776],t.n)
-B.Qf=new A.U(0.7078,8.3194)
-B.PT=new A.U(0.7895,2.4523)
+B.Qg=new A.U(0.7078,8.3194)
+B.PV=new A.U(0.7895,2.4523)
 B.Qy=new A.U(0.8379,1.8528)
-B.PG=new A.U(0.8701,1.6891)
-B.Q4=new A.U(0.8932,1.5806)
+B.PH=new A.U(0.8701,1.6891)
+B.Q5=new A.U(0.8932,1.5806)
 B.PN=new A.U(0.9107,1.5043)
-B.PR=new A.U(0.9244,1.447)
-B.PP=new A.U(0.9355,1.4037)
-B.Q5=new A.U(0.9448,1.3701)
-B.PC=new A.U(0.9526,1.3431)
-B.PZ=new A.U(0.9594,1.3212)
-B.Q7=new A.U(0.9653,1.3032)
+B.PT=new A.U(0.9244,1.447)
+B.PQ=new A.U(0.9355,1.4037)
+B.Q6=new A.U(0.9448,1.3701)
+B.PD=new A.U(0.9526,1.3431)
+B.Q0=new A.U(0.9594,1.3212)
+B.Q9=new A.U(0.9653,1.3032)
 B.Qo=new A.U(0.9705,1.288)
-B.pK=s([B.Qf,B.PT,B.Qy,B.PG,B.Q4,B.PN,B.PR,B.PP,B.Q5,B.PC,B.PZ,B.Q7,B.Qo],A.aq("A<+(B,B)>"))
+B.pK=s([B.Qg,B.PV,B.Qy,B.PH,B.Q5,B.PN,B.PT,B.PQ,B.Q6,B.PD,B.Q0,B.Q9,B.Qo],A.aq("A<+(B,B)>"))
 B.n=new A.BZ(0,"ignored")
 B.b4=new A.i(4294967304)
 B.fl=new A.i(4294967323)
@@ -103176,7 +103176,7 @@ B.Sz=new A.ak(B.b5,!1,!0,!0,!1,B.n)
 B.Sp=new A.ak(B.b5,!1,!1,!0,!1,B.n)
 B.vG=new A.d4([B.Su,B.r,B.S0,B.r,B.Aj,B.r,B.Ag,B.r,B.Sl,B.r,B.Sc,B.r,B.Sz,B.r,B.Sp,B.r],t.Fp)
 B.NK={weight_measure:0,gym:1,minoxidil_am:2,minoxidil_pm:3,diet_alcohol:4,diet_snack:5,diet_sweet:6,diet_oil_m:7,diet_oil_n:8,diet_oil_e:9,diet_oil_d:10,diet_portion_m:11,diet_portion_n:12,diet_portion_e:13,diet_rice_m:14,diet_rice_n:15,diet_rice_e:16}
-B.vH=new A.c0(B.NK,["\u4f53\u91cd\u6e2c\u5b9a","\u30b8\u30e0","\u30df\u30ce\u30ad\u671d","\u30df\u30ce\u30ad\u591c","\u7981\u9152","\u30b9\u30ca\u30c3\u30af\u83d3\u5b50","\u7518\u3044\u3082\u306e","\u6cb9\u671d","\u6cb9\u663c","\u6cb9\u591c","\u6cb9","8\u5206\u76ee\u671d","8\u5206\u76ee\u663c","8\u5206\u76ee\u591c","\u30de\u30f3\u30ca\u30f3\u671d","\u30de\u30f3\u30ca\u30f3\u663c","\u30de\u30f3\u30ca\u30f3\u591c"],t.li)
+B.vH=new A.c0(B.NK,["\u4f53\u91cd\u6e2c\u5b9a","\u30b8\u30e0","\u30df\u30ce\u30ad\u671d","\u30df\u30ce\u30ad\u591c","\u7981\u9152","\u30b9\u30ca\u30c3\u30af\u83d3\u5b50","\u7518\u3044\u3082\u306e","\u63da\u3052\u7269\u671d","\u63da\u3052\u7269\u663c","\u63da\u3052\u7269\u591c","\u63da\u3052\u7269","8\u5206\u76ee\u671d","8\u5206\u76ee\u663c","8\u5206\u76ee\u591c","\u30de\u30f3\u30ca\u30f3\u671d","\u30de\u30f3\u30ca\u30f3\u663c","\u30de\u30f3\u30ca\u30f3\u591c"],t.li)
 B.NS={"iso_8859-1:1987":0,"iso-ir-100":1,"iso_8859-1":2,"iso-8859-1":3,latin1:4,l1:5,ibm819:6,cp819:7,csisolatin1:8,"iso-ir-6":9,"ansi_x3.4-1968":10,"ansi_x3.4-1986":11,"iso_646.irv:1991":12,"iso646-us":13,"us-ascii":14,us:15,ibm367:16,cp367:17,csascii:18,ascii:19,csutf8:20,"utf-8":21}
 B.bH=new A.Le()
 B.MS=new A.c0(B.NS,[B.bI,B.bI,B.bI,B.bI,B.bI,B.bI,B.bI,B.bI,B.bI,B.bH,B.bH,B.bH,B.bH,B.bH,B.bH,B.bH,B.bH,B.bH,B.bH,B.bH,B.a4,B.a4],A.aq("c0<k,nE>"))
@@ -103715,49 +103715,49 @@ B.Py=new A.D3(B.KG,B.KH)
 B.Pz=new A.U(0,0)
 B.PA=new A.U(0,!0)
 B.PB=new A.U("minoxidil_pm","\u30df\u30ce\u30ad\u591c")
+B.PC=new A.U("\u63da\u3052\u7269","\u90311\u56de\u306e\u307f")
 B.cu=new A.F7(2,"collapsed")
-B.PD=new A.U(B.cu,B.cu)
-B.PE=new A.U(B.w,B.j)
-B.PF=new A.U("\u7981\u9152","\u91d1\u571f\u65e5")
-B.PH=new A.U("diet_sweet","\u7518\u3044\u3082\u306e\u7981\u6b62")
+B.PE=new A.U(B.cu,B.cu)
+B.PF=new A.U(B.w,B.j)
+B.PG=new A.U("\u7981\u9152","\u91d1\u571f\u65e5")
+B.PI=new A.U("diet_sweet","\u7518\u3044\u3082\u306e\u7981\u6b62")
 B.EZ=new A.x(1,0.9098039215686274,0.9176470588235294,0.9333333333333333,B.e)
-B.PI=new A.U(B.EZ,B.hn)
-B.PJ=new A.U("\u6cb9","\u90311\u56de\u306e\u307f")
+B.PJ=new A.U(B.EZ,B.hn)
 B.PK=new A.U("diet_portion_n","8\u5206\u76ee\u663c")
 B.zH=new A.U("8\u5206\u76ee (\xd73)","\u671d\u30fb\u663c\u30fb\u591c")
 B.PL=new A.U("\u30b9\u30ca\u30c3\u30af\u83d3\u5b50","\u6bce\u65e5")
 B.zI=new A.U("\u7518\u3044\u3082\u306e\u7981\u6b62","\u6bce\u65e5")
 B.PM=new A.U("\u7981\u9152","\u6708\u301c\u6728")
 B.zJ=new A.U("\u30de\u30f3\u30ca\u30f3 (\xd73)","\u671d\u30fb\u663c\u30fb\u591c")
-B.zK=new A.U("\u6cb9 (\xd73)","\u671d\u30fb\u663c\u30fb\u591c")
 B.PO=new A.U("weight_measure","\u4f53\u91cd\u6e2c\u5b9a")
-B.PQ=new A.U(B.o0,B.bt)
-B.PS=new A.U("\u30b9\u30ca\u30c3\u30af\u83d3\u5b50","\u91d1\u571f\u65e5")
-B.PU=new A.U("diet_oil_n","\u6cb9\u663c")
-B.PV=new A.U("diet_alcohol","\u7981\u9152")
-B.zL=new A.U("\u30de\u30f3\u30ca\u30f3","\u2014")
-B.PW=new A.U("\u7981\u9152","\u6bce\u65e5")
-B.PX=new A.U("\u8d85\u5f37","ULTRA")
-B.PY=new A.U("diet_rice_e","\u30de\u30f3\u30ca\u30f3\u591c")
-B.Q_=new A.U("\u5f31","SOFT")
-B.Q0=new A.U(B.O,0)
-B.Q1=new A.U("diet_rice_n","\u30de\u30f3\u30ca\u30f3\u663c")
-B.zM=new A.U("8\u5206\u76ee","\u2014")
-B.Q2=new A.U("diet_oil_e","\u6cb9\u591c")
-B.Q3=new A.U("\u30b9\u30ca\u30c3\u30af\u83d3\u5b50","\u6708\u301c\u6728")
-B.Q6=new A.U("diet_snack","\u30b9\u30ca\u30c3\u30af\u83d3\u5b50")
+B.PP=new A.U("diet_oil_e","\u63da\u3052\u7269\u591c")
+B.PR=new A.U(B.o0,B.bt)
+B.PS=new A.U("diet_oil_n","\u63da\u3052\u7269\u663c")
+B.PU=new A.U("\u30b9\u30ca\u30c3\u30af\u83d3\u5b50","\u91d1\u571f\u65e5")
+B.PW=new A.U("diet_alcohol","\u7981\u9152")
+B.zK=new A.U("\u30de\u30f3\u30ca\u30f3","\u2014")
+B.PX=new A.U("\u7981\u9152","\u6bce\u65e5")
+B.PY=new A.U("\u8d85\u5f37","ULTRA")
+B.PZ=new A.U("diet_oil_d","\u63da\u3052\u7269")
+B.Q_=new A.U("diet_rice_e","\u30de\u30f3\u30ca\u30f3\u591c")
+B.Q1=new A.U("\u5f31","SOFT")
+B.Q2=new A.U(B.O,0)
+B.Q3=new A.U("diet_rice_n","\u30de\u30f3\u30ca\u30f3\u663c")
+B.zL=new A.U("8\u5206\u76ee","\u2014")
+B.zM=new A.U("\u63da\u3052\u7269 (\xd73)","\u671d\u30fb\u663c\u30fb\u591c")
+B.Q4=new A.U("\u30b9\u30ca\u30c3\u30af\u83d3\u5b50","\u6708\u301c\u6728")
+B.Q7=new A.U("diet_snack","\u30b9\u30ca\u30c3\u30af\u83d3\u5b50")
+B.Q8=new A.U("\u63da\u3052\u7269","\u2014")
 B.j5=new A.F7(0,"left")
 B.j6=new A.F7(1,"right")
-B.Q8=new A.U(B.j5,B.j6)
-B.Q9=new A.U("\u5f37","MAX")
-B.Qa=new A.U("\u4e2d","MID")
-B.Qb=new A.U("diet_portion_m","8\u5206\u76ee\u671d")
-B.Qc=new A.U("minoxidil_am","\u30df\u30ce\u30ad\u671d")
-B.Qd=new A.U("\u6cb9","\u2014")
+B.Qa=new A.U(B.j5,B.j6)
+B.Qb=new A.U("\u5f37","MAX")
+B.Qc=new A.U("\u4e2d","MID")
+B.Qd=new A.U("diet_portion_m","8\u5206\u76ee\u671d")
+B.Qe=new A.U("minoxidil_am","\u30df\u30ce\u30ad\u671d")
 B.iU=new A.d1(4,"scrollLeft")
 B.iV=new A.d1(8,"scrollRight")
-B.Qe=new A.U(B.iU,B.iV)
-B.Qg=new A.U("diet_oil_m","\u6cb9\u671d")
+B.Qf=new A.U(B.iU,B.iV)
 B.Qh=new A.U("diet_portion_e","8\u5206\u76ee\u591c")
 B.Qi=new A.U(B.iV,B.iU)
 B.Qj=new A.U("diet_rice_m","\u30de\u30f3\u30ca\u30f3\u671d")
@@ -103767,12 +103767,12 @@ B.Qm=new A.U(!1,!0)
 B.iR=new A.d1(16,"scrollUp")
 B.iS=new A.d1(32,"scrollDown")
 B.Qn=new A.U(B.iR,B.iS)
-B.Qp=new A.U(B.iS,B.iR)
-B.Qq=new A.U("\u7518\u3044\u3082\u306e","\u30b8\u30e0\u65e5\u9664\u304f")
-B.Qr=new A.U("\u30b9\u30ca\u30c3\u30af\u83d3\u5b50","\u7981\u9152\u3068\u540c\u3058")
-B.Qs=new A.U("\u7518\u3044\u3082\u306e","1\u3064\u307e\u3067\u53ef")
-B.Qt=new A.U("\u7981\u9152","\u975e\u30b8\u30e0\u30fb\u975e\u571f\u65e5")
-B.Qu=new A.U("diet_oil_d","\u6cb9")
+B.Qp=new A.U("diet_oil_m","\u63da\u3052\u7269\u671d")
+B.Qq=new A.U(B.iS,B.iR)
+B.Qr=new A.U("\u7518\u3044\u3082\u306e","\u30b8\u30e0\u65e5\u9664\u304f")
+B.Qs=new A.U("\u30b9\u30ca\u30c3\u30af\u83d3\u5b50","\u7981\u9152\u3068\u540c\u3058")
+B.Qt=new A.U("\u7518\u3044\u3082\u306e","1\u3064\u307e\u3067\u53ef")
+B.Qu=new A.U("\u7981\u9152","\u975e\u30b8\u30e0\u30fb\u975e\u571f\u65e5")
 B.Qv=new A.U(!0,!1)
 B.Qw=new A.U(!0,!0)
 B.Qx=new A.U(B.j6,B.j5)
