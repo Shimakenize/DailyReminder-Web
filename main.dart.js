@@ -47168,8 +47168,8 @@ e=B.c.N(f.cP(),0,10)
 d=B.c.e6(B.f.k(A.aZ(f)),2,"0")
 c=B.c.e6(B.f.k(A.bV(f)),2,"0")
 b=t.i
-a=J.m5(441,b)
-for(o=0;o<441;++o)a[o]=A.nn(B.d.a0(40+o*0.25,2))
+a=J.m5(2201,b)
+for(o=0;o<2201;++o)a[o]=A.nn(B.d.a0(40+o*0.05,2))
 n=J.m5(571,b)
 for(o=0;o<571;++o)n[o]=A.nn(B.d.a0(3+o*0.1,1))
 m=B.b.LB(a,new A.au0(g))
@@ -48262,7 +48262,7 @@ A.atD.prototype={
 $1(a){return A.am(["label",a.a,"date",a.b,"weight",a.c,"bodyFat",a.d],t.N,t.K)},
 $S:164}
 A.au0.prototype={
-$1(a){return Math.abs(a-this.a.c)<0.125},
+$1(a){return Math.abs(a-this.a.c)<0.025},
 $S:93}
 A.au1.prototype={
 $1(a){return Math.abs(a-this.a.d)<0.05},
